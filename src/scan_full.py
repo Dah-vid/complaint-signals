@@ -7,3 +7,6 @@ df = pd.read_csv(PATH)
 print(len(df))
 
 print("Non-empty narratives:", df["Consumer complaint narrative"].notna().sum())
+
+
+print(df["Product"].value_counts())
