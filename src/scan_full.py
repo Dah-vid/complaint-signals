@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-PATH = "data/raw/CCDB_Export_21_August_2026.zip" 
+PATH = "data/raw/CCDB_Export_13_September_2025_through_October_2025.zip"
 df = pd.read_csv(PATH)
 
 print(len(df))
